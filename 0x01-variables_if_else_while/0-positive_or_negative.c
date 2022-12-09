@@ -1,9 +1,9 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
- * main - print arandom num
+ * main - print a random num
  *
  * Return: 0
  */
@@ -20,4 +20,4 @@ int main(void)
 	else
 		printf("%d is zero\n", n);
 	return (0);
-				
+}
