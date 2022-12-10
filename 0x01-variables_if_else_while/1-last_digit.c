@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-* This program will assign a random number
-*
+* main - main block
+*Descripion: Get a random number and check its last digit, compare it with 5
 * Return: 0
 */
 int main(void)
