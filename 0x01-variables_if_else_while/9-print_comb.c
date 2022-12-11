@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - main prints all combination of dingle digits
- * Return:
+ * Return: 0
  */
 int main(void)
 {
