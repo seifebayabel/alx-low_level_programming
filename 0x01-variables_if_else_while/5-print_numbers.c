@@ -8,15 +8,12 @@
  * asarting from 0, followed by new line.
  * Return: 0
  */
-int main(0)
+int main(void)
 {
-	char c = '0';
+	int i;
 
-	while (c <= '9')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
