@@ -5,7 +5,7 @@
  * @c: the char to be chedked
  * Return: 1 if char is letter lower or upper, 0 otherwise
  */
-int _isalpha(int c)
+int _isalphabet(int c)
 {
 	if ((c <= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
