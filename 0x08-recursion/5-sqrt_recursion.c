@@ -7,13 +7,19 @@
  */
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-
-	if (i < 0)
-	return (-1);
-
+	return (square(n, 1));
+}
+/**
+ * square - find square root
+ * @n: int to find square root
+ * Return: int
+ */
+int square(int n, int val)
+{
+	if (val * val == n)
+		return (val);
+	else if (val * val < n)
+		return (square(n, val + 1));
 	else
-	{
-	return (_evaluate(i, n));
-	}
+		return (-1);
 }
